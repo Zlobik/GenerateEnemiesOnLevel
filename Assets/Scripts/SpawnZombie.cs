@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SpawnZombie : MonoBehaviour
 {
-    private float _time;
     [SerializeField] private GameObject _zombie;
     [SerializeField] private Transform _spawn;
 
     private Transform[] _spawns;
     private int _count = 0;
+    private float _time;
 
     private void Start()
     {
